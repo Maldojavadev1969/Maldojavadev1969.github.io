@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>‘switch’ and ‘if/else’</title>
+</head>
+<body>
+<h1>'switch’ and ‘if/else’</h1>
+  <p>Here  is the basic template for the if/else control structure:
+
+  if((boolean expression))
+  {                         //comment- curly braces optional if one statement!
+    statements
+  }
+  else if{boolean expressions}
+  {
+    statements
+  }
+  else(boolean expression)
+  {
+    statements
+  }
+
+  An if/else uses the if(this condition is true) then execute the statements
+  along with skipping all the other if/else statements.
+  If the boolean expression is false then fall to the next else if condition
+  until one of the conditions evaluates to true or none of them are true and none
+  of the statements are executed!
+
+  We can also have nested if else statements inside and if statement as follows:
+  if(boolean expression)
+  {
+    if(boolean expression)
+    {
+      statements
+    }
+    else
+      statements
+  }
+
+  Now the switch control (case) structure has the following basic
+  template:
+
+  switch(switchExpression)
+  {
+    case 1:
+      statements
+      break;
+    case 2:
+      statements
+      break;
+    default:
+      statements
+      break;
+  }
+
+  One advantage of the switch statement is that it has the ability to execute more
+  than one alternative statement by omitting break statements and this is not
+  possible in if-else-if statement!
+
+  I would use a switch statement to make a decision based on the value of a
+  single variable/expression but use a if/else condition for testing different
+  variables and expressions.</p>
+
+</body>
+</html>
