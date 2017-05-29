@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>difference between a “parameter” and an “argument”</title>
+</head>
+<body>
+<h1>difference between a “parameter” and an “argument”</h1> <br/>
+<p>
+When it comes to methods, what is the difference between a “parameter” and an <br/>
+“argument”? Is there one? When would you use one versus the other? <br/>
+</p>
+  <p>
+    The difference is that a an argument in respect to methods is the actual <br/>
+    value that is passed to the method (as input) when it is called. <br/>
+    Parameter refers to the variables that are used in the function declaration/definition <br/>
+    to represent those arguments that were send to the function during the function call. <br/>
+    So, you would use arguments to pass values to a method that you would call. <br/>
+    While parameters would be the declaration in the definition of the method to <br/>
+    hold those inputs as variables.
+  </p>
+</body>
+</html>
